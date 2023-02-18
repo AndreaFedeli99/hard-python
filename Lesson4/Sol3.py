@@ -20,6 +20,6 @@ def write_to_file(fn, matrix):
         for row in matrix:
             f.write(','.join(row) + "\n")
 
-l1, l2 = read_lists_from_file("Hard-Python/Lesson4/data/file_02.txt")
+l1, l2 = read_lists_from_file("hard-python/Lesson4/data/file_02.txt")
 matrix = build_matrix(l1, l2)
-write_to_file("Hard-Python/Lesson4/data/file_03.txt", matrix)
+write_to_file("hard-python/Lesson4/data/file_03.txt", matrix)

@@ -1,7 +1,7 @@
 
-fn1 = 'Hard-Python/Lesson4/data/file_03_1.txt'
-fn2 = 'Hard-Python/Lesson4/data/file_03_2.txt'
-out = 'Hard-Python/Lesson4/data/file_03_3.txt'
+fn1 = 'hard-python/Lesson4/data/file_03_1.txt'
+fn2 = 'hard-python/Lesson4/data/file_03_2.txt'
+out = 'hard-python/Lesson4/data/file_03_3.txt'
 
 def merge_common_lines(fn1, fn2):
     f1 = open(fn1).readlines()
